@@ -1,0 +1,6 @@
+/DBIx-Class-Storage-Statistics-Log4perl-*
+/.build
+/_build*
+/Build
+MYMETA.*
+!META.json
