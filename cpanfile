@@ -1,6 +1,8 @@
 requires 'perl', '5.008005';
+requires 'DBIx::Class', '0';
+requires 'Log::Log4perl', '0';
 
-# requires 'Some::Module', 'VERSION';
+
 
 on test => sub {
     requires 'Test::More', '0.88';

@@ -1,5 +1,5 @@
 {
-   "abstract" : "Blah blah blah",
+   "abstract" : "DBIx::Class",
    "author" : [
       "Brian Mowrey <brian@drlabs.org>"
    ],
@@ -26,6 +26,8 @@
       },
       "runtime" : {
          "requires" : {
+            "DBIx::Class" : "0",
+            "Log::Log4perl" : "0",
             "perl" : "5.008005"
          }
       },
@@ -36,6 +38,17 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.01"
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/BrianMowrey/dbix-class-storage-statistics-log4perl/issues"
+      },
+      "homepage" : "https://github.com/BrianMowrey/dbix-class-storage-statistics-log4perl",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/BrianMowrey/dbix-class-storage-statistics-log4perl.git",
+         "web" : "https://github.com/BrianMowrey/dbix-class-storage-statistics-log4perl"
+      }
+   },
+   "version" : "0.1"
 }
 
