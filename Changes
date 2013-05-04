@@ -1,4 +1,6 @@
 Revision history for DBIx-Class-Storage-Statistics-Log4perl
 
 {{$NEXT}}
+
+0.1  2013-05-04 12:41:05 CDT
         - Initial release
